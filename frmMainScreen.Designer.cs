@@ -38,9 +38,10 @@
             // 
             // lvwInitiative
             // 
+            this.lvwInitiative.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lvwInitiative.Location = new System.Drawing.Point(25, 27);
             this.lvwInitiative.Name = "lvwInitiative";
-            this.lvwInitiative.Size = new System.Drawing.Size(371, 393);
+            this.lvwInitiative.Size = new System.Drawing.Size(457, 479);
             this.lvwInitiative.TabIndex = 0;
             this.lvwInitiative.UseCompatibleStateImageBehavior = false;
             // 
@@ -50,10 +51,10 @@
             this.btnRollInitiative.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnRollInitiative.FlatAppearance.BorderSize = 3;
             this.btnRollInitiative.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnRollInitiative.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRollInitiative.Location = new System.Drawing.Point(413, 27);
+            this.btnRollInitiative.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRollInitiative.Location = new System.Drawing.Point(501, 27);
             this.btnRollInitiative.Name = "btnRollInitiative";
-            this.btnRollInitiative.Size = new System.Drawing.Size(154, 50);
+            this.btnRollInitiative.Size = new System.Drawing.Size(294, 126);
             this.btnRollInitiative.TabIndex = 1;
             this.btnRollInitiative.Text = "Roll Initiative!";
             this.btnRollInitiative.UseVisualStyleBackColor = false;
@@ -61,9 +62,10 @@
             // 
             // btnAddCombatant
             // 
-            this.btnAddCombatant.Location = new System.Drawing.Point(413, 281);
+            this.btnAddCombatant.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAddCombatant.Location = new System.Drawing.Point(501, 295);
             this.btnAddCombatant.Name = "btnAddCombatant";
-            this.btnAddCombatant.Size = new System.Drawing.Size(154, 29);
+            this.btnAddCombatant.Size = new System.Drawing.Size(294, 48);
             this.btnAddCombatant.TabIndex = 2;
             this.btnAddCombatant.Text = "Add Combatant";
             this.btnAddCombatant.UseVisualStyleBackColor = true;
@@ -71,9 +73,10 @@
             // 
             // btnRemoveCombatant
             // 
-            this.btnRemoveCombatant.Location = new System.Drawing.Point(413, 391);
+            this.btnRemoveCombatant.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRemoveCombatant.Location = new System.Drawing.Point(501, 458);
             this.btnRemoveCombatant.Name = "btnRemoveCombatant";
-            this.btnRemoveCombatant.Size = new System.Drawing.Size(154, 29);
+            this.btnRemoveCombatant.Size = new System.Drawing.Size(294, 48);
             this.btnRemoveCombatant.TabIndex = 4;
             this.btnRemoveCombatant.Text = "Remove Combatant";
             this.btnRemoveCombatant.UseVisualStyleBackColor = true;
@@ -81,9 +84,10 @@
             // 
             // btnRerollCombatant
             // 
-            this.btnRerollCombatant.Location = new System.Drawing.Point(413, 336);
+            this.btnRerollCombatant.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRerollCombatant.Location = new System.Drawing.Point(501, 379);
             this.btnRerollCombatant.Name = "btnRerollCombatant";
-            this.btnRerollCombatant.Size = new System.Drawing.Size(154, 29);
+            this.btnRerollCombatant.Size = new System.Drawing.Size(294, 48);
             this.btnRerollCombatant.TabIndex = 3;
             this.btnRerollCombatant.Text = "Reroll Combatant";
             this.btnRerollCombatant.UseVisualStyleBackColor = true;
@@ -93,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 450);
+            this.ClientSize = new System.Drawing.Size(825, 570);
             this.Controls.Add(this.btnRerollCombatant);
             this.Controls.Add(this.btnRemoveCombatant);
             this.Controls.Add(this.btnAddCombatant);

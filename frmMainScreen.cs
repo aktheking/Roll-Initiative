@@ -184,11 +184,21 @@ namespace Roll_Initiative
 
         private void btnRollInitiative_Click(object sender, EventArgs e)
         {
+            StartMusic();
             ResetListView();
             RollPreexistingCombatants();
             RollNewCombatants();
             OrderCombatants();
             AfterChangingCombatants();
+        }
+
+        private void StartMusic()
+        {
+            if (File.Exists(Constants.COMBAT_MUSIC_FILE))
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Constants.COMBAT_MUSIC_FILE);
+                player.PlayLooping();
+            }
         }
 
         private void btnAddCombatant_Click(object sender, EventArgs e)

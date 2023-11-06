@@ -6,7 +6,6 @@ namespace Roll_Initiative
     {
         private const string PLUS_SIGN = "+";
         private const string MINUS_SIGN = "-";
-        //private static char[] MODIFIER_CHARS = new char[] { PLUS_SIGN[0], MINUS_SIGN[0] };
 
         private int value;
         private InitiativeModifier modifier;
